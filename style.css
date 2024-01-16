@@ -45,8 +45,6 @@ body{
 
     text-decoration: none;
     
-    
-
 }
 .home{
     color: #FF5400;
@@ -59,8 +57,9 @@ body{
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
-
+    
 }
+
 
 
 .hide-item{
@@ -611,14 +610,21 @@ align-items: center;
     background-color: #FF5400;
     color: white;
     width: 200px;
-    height: 100px;
+    height: 80px;
     align-items: center;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     position: relative;
-    left: 930px;
-    bottom: 220px;
+    left: 970px;
+    bottom: 250px;
+    transform: rotate(-20deg);
+
+}
+#pera-color {
+    color: #FFF;
+    padding: 0%;
+    margin: 0%;
 }
 
 @media screen and ( max-width: 600px) {
@@ -639,11 +645,11 @@ align-items: center;
     .overlap div{
 
         position: relative;
-        left: 10px;
-        bottom: 150px;
+        left: 300px;
+        bottom: 190px;
         width: 100px;
         height: auto;
-
+        transform: rotate(-20deg);
     }
 
 
