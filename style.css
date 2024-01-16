@@ -62,6 +62,14 @@ body{
 
 }
 
+
+.hide-item{
+    position: relative;
+    display: none;
+}
+
+
+
 .banner{
 
     background-image:url('Images/Group\ 13\ \(1\)\ \(1\).png');
@@ -138,6 +146,9 @@ font-size: 16px;
     
     .menu{
         display: none;
+    }
+    .hide-item{
+        display: contents;
     }
 
     .finding{
@@ -644,7 +655,7 @@ align-items: center;
 
 .footer-section{
 
-    background: #34343637;
+    background: #34343611;
     height: auto;
     width: 100vw;
     padding-top: 30px;
