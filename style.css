@@ -12,10 +12,12 @@ body{
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 20px;
 }
 .icon{
     display: flex;
     gap: 20px;
+
     
 }
 .icon h1{
@@ -49,7 +51,7 @@ body{
     list-style: none;
     display: inline-block;
     margin-left: 30px;
-    color: var(--Dark-02, #424247);
+    color: #424247;
     text-align: center;
     font-family: Mulish;
     font-size: 18px;
@@ -98,6 +100,7 @@ font-size: 16px;
     margin-top: 50px;
     border-radius: 20px;
     display: flex;
+    justify-content: space-between;
 
 }
 .finding input {
@@ -119,7 +122,10 @@ font-size: 16px;
     background-color: #FF5400;
     color: white;
     border: 0px;
-   
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
 
 }
 .popular{
@@ -128,6 +134,8 @@ font-size: 16px;
     justify-content: space-between;
     margin: 50px;
     gap: 20px;
+
+   
 }
 .popular button{
     background-color: #FF5400;
@@ -145,14 +153,46 @@ font-size: 16px;
 .popular h1{
     color: #131318;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 50px;
 
 }
 .popular li,p{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 20px;
+    text-align: justify;
 }
+
+.destination-container img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.row-1{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    margin: 20px;
+}
+.row-2{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.row-3{
+    display: flex;
+    height: 300px;
+    gap: 20px;
+    margin: 20px;
+}
+
+
+
 
 .destination{
 
@@ -164,33 +204,117 @@ font-size: 16px;
     color: #131318;
     font-family: Mulish;
     font-size: 40px;
+    text-align: center;
 
 }
 .destination p{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
-
-}
-
-
-.choose{
-
     text-align: center;
-    
 }
+
+
+
 .choose h1{
 
     color: #131318;
     font-family: Mulish;
     font-size: 40px;
+    text-align: center;
 
 }
 .choose p{
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
     font-size: 16px;
+    text-align: center;
+}
 
+.Choose-box-1{
+
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+.box-1{
+    width: 40%;
+    border: 1px solid red;
+    padding: 20px;
+}
+.box-2{
+    width: 40%;
+    border: 1px solid red;
+    padding: 20px;
+}
+.Choose-box-2{
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   height: 300px;
+   position: relative;
+   left: 30%;
+   border: 1px solid red;
+   padding: 20px;
+}
+
+.popular video{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border: 2px solid red;
+   
+}
+.overlap {
+    background-color: #FF5400;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    top: 185px;
+    right: 200px;
+}
+    .overlap p,h1{
+
+        color: #FFF;
+
+    }
+    
+    
+    
+.Packages{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    justify-content: space-around;
+    border-radius: 20px;
+
+}
+.Packages div{
+    width: 30%;
+    height: 300px;
+    background-color: #ff550015;
+    padding: 20px;
+    border-radius: 20px;
+   text-align: center;
 }
 
 
+
+footer{
+    background-color: #42424722;
+    width: auto;
+    height: 400px;
+}
+
+footer h3,hr{
+
+    text-align: center;
+    margin-top: 50px;
+
+}
