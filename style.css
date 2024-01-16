@@ -159,7 +159,7 @@ font-size: 16px;
        
     }
     .banner{
-        height: 740px;
+        height: 870px;
     }
 
     .finding input{
@@ -360,6 +360,7 @@ margin-right: 50px;
 }
 .box-2{
     width: 40%;
+    height: auto;
     border-radius: 10px;
     border: 0.5px solid rgba(255, 0, 0, 0.164);
     padding: 20px;
@@ -562,6 +563,7 @@ align-items: center;
     justify-content: space-around;
     margin: 50px;
     align-items: center;
+    gap: 20px;
 }
 
 .Newsletter-left{
@@ -613,8 +615,8 @@ align-items: center;
     align-items: center;
     text-align: center;
     padding: 10px;
-   border-radius: 20px;
-   position: relative;
+    border-radius: 20px;
+    position: relative;
     left: 930px;
     bottom: 220px;
 }
@@ -680,6 +682,12 @@ align-items: center;
   
 
 }
+
+.footer-container span{
+
+    color: #FF5400;
+
+} 
 
 .footer-container p{
 
