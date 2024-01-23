@@ -2,7 +2,7 @@ body{
 
     margin: 0px;
     padding: 0px;
-    border: 1px solid coral;
+
 
 }
 
@@ -159,7 +159,8 @@ font-size: 16px;
        
     }
     .banner{
-        height: 870px;
+        height: auto;
+        padding-bottom: 25px;
     }
 
     .finding select{
@@ -226,8 +227,9 @@ font-size: 16px;
     }
     .popular-right{
 
-margin-left: 50px;
-margin-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
 
 
     }
@@ -323,15 +325,6 @@ margin-right: 50px;
 
   }
 
-
-
-
-
-
-
-
-
-}
 .choose h1{
 
     color: #131318;
@@ -623,7 +616,7 @@ align-items: center;
     padding: 10px;
     border-radius: 20px;
     position: relative;
-    left: 450px;
+    left: 500px;
     bottom: 230px;
     transform: rotate(-20deg);
 
@@ -652,7 +645,7 @@ align-items: center;
     .overlap div{
 
         position: relative;
-        left: 140px;
+        left: 80px;
         bottom: 200px;
         width: 100px;
         height: auto;
